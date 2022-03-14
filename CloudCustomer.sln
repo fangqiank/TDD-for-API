@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomer.API", "CloudCustomer.API\CloudCustomer.API.csproj", "{9349ACA5-02B7-4574-AA47-3A267092C7BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCustomer.API", "CloudCustomer.API\CloudCustomer.API.csproj", "{9349ACA5-02B7-4574-AA47-3A267092C7BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudCustomer.UnitTests", "CloudCustomer.UnitTests\CloudCustomer.UnitTests.csproj", "{D27ABB6D-8504-46A6-84D3-A6A1B73D35CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CloudCustomer.UnitTests", "CloudCustomer.UnitTests\CloudCustomer.UnitTests.csproj", "{D27ABB6D-8504-46A6-84D3-A6A1B73D35CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiDemo", "MinimalApiDemo\MinimalApiDemo.csproj", "{E99B7069-D46A-4AA5-A56F-6F4A37D89526}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinimalApiDemo.Test", "MinimalApiDemo.Test\MinimalApiDemo.Test.csproj", "{3AFD515F-76B0-4F15-90D2-8E91A3B12488}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{D27ABB6D-8504-46A6-84D3-A6A1B73D35CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D27ABB6D-8504-46A6-84D3-A6A1B73D35CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D27ABB6D-8504-46A6-84D3-A6A1B73D35CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E99B7069-D46A-4AA5-A56F-6F4A37D89526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E99B7069-D46A-4AA5-A56F-6F4A37D89526}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E99B7069-D46A-4AA5-A56F-6F4A37D89526}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E99B7069-D46A-4AA5-A56F-6F4A37D89526}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFD515F-76B0-4F15-90D2-8E91A3B12488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFD515F-76B0-4F15-90D2-8E91A3B12488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFD515F-76B0-4F15-90D2-8E91A3B12488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFD515F-76B0-4F15-90D2-8E91A3B12488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
